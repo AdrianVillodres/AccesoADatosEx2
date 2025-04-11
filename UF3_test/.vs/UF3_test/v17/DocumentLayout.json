@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea2. crud a mongodb\\uf3_test\\uf3_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea2. crud a mongodb\\uf3_test\\uf3_test\\connections\\mongoclusterconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:connections\\mongoclusterconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea2. crud a mongodb\\uf3_test\\uf3_test\\model\\publisheddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\publisheddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea2. crud a mongodb\\uf3_test\\uf3_test\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea2. crud a mongodb\\uf3_test\\uf3_test\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|c:\\joan\\01.itb\\01. curs 24-25\\01. bbdd\\damv_m2_m6\\m6\\nf3. persist\u00E8ncia en bbdd nosql\\ea2. crud a mongodb\\uf3_test\\uf3_test\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{945781E9-16FA-41A3-A4AB-7B157CE593F2}|UF3_test.csproj|solutionrelative:model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoClusterConnection.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\connections\\MongoClusterConnection.cs",
+              "RelativeDocumentMoniker": "connections\\MongoClusterConnection.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\connections\\MongoClusterConnection.cs",
+              "RelativeToolTip": "connections\\MongoClusterConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:08:03.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PublishedDate.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\PublishedDate.cs",
+              "RelativeDocumentMoniker": "model\\PublishedDate.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\PublishedDate.cs",
+              "RelativeToolTip": "model\\PublishedDate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:01:37.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\Product.cs",
+              "RelativeDocumentMoniker": "model\\Product.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\Product.cs",
+              "RelativeToolTip": "model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:01:08.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\Book.cs",
+              "RelativeDocumentMoniker": "model\\Book.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\Book.cs",
+              "RelativeToolTip": "model\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:00:51.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\Person.cs",
+              "RelativeDocumentMoniker": "model\\Person.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\model\\Person.cs",
+              "RelativeToolTip": "model\\Person.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA/wBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:23:51.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Joan\\01.ITB\\01. Curs 24-25\\01. BBDD\\DAMv_M2_M6\\M6\\NF3. Persist\u00E8ncia en BBDD NoSQL\\EA2. CRUD a MongoDB\\UF3_test\\UF3_test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T15:10:08.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
