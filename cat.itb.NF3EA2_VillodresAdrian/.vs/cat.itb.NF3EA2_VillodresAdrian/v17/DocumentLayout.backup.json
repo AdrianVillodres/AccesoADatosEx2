@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\cruds\\countriescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:cruds\\countriescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\cruds\\bookscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:cruds\\bookscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\cruds\\peoplecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:cruds\\peoplecrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\cruds\\studentscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:cruds\\studentscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\cruds\\gradescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:cruds\\gradescrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\cruds\\productscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:cruds\\productscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|c:\\users\\adrif\\desktop\\accesadades\\activitat2\\cat.itb.nf3ea2_villodresadrian\\cruds\\restaurantscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECF3834E-BACD-4274-91A0-DCC90A4B495D}|cat.itb.NF3EA2_VillodresAdrian.csproj|solutionrelative:cruds\\restaurantscrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwMQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:32.838Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RestaurantsCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\RestaurantsCRUD.cs",
+              "RelativeDocumentMoniker": "cruds\\RestaurantsCRUD.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\RestaurantsCRUD.cs",
+              "RelativeToolTip": "cruds\\RestaurantsCRUD.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:13:47.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PeopleCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\PeopleCRUD.cs",
+              "RelativeDocumentMoniker": "cruds\\PeopleCRUD.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\PeopleCRUD.cs",
+              "RelativeToolTip": "cruds\\PeopleCRUD.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwEUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:32.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\BooksCRUD.cs",
+              "RelativeDocumentMoniker": "cruds\\BooksCRUD.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\BooksCRUD.cs",
+              "RelativeToolTip": "cruds\\BooksCRUD.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAhwIcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:32.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\StudentsCRUD.cs",
+              "RelativeDocumentMoniker": "cruds\\StudentsCRUD.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\StudentsCRUD.cs",
+              "RelativeToolTip": "cruds\\StudentsCRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:32.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\ProductsCRUD.cs",
+              "RelativeDocumentMoniker": "cruds\\ProductsCRUD.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\ProductsCRUD.cs",
+              "RelativeToolTip": "cruds\\ProductsCRUD.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAQwJ4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:32.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountriesCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\CountriesCRUD.cs",
+              "RelativeDocumentMoniker": "cruds\\CountriesCRUD.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\CountriesCRUD.cs",
+              "RelativeToolTip": "cruds\\CountriesCRUD.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwGwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:32.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GradesCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\GradesCRUD.cs",
+              "RelativeDocumentMoniker": "cruds\\GradesCRUD.cs",
+              "ToolTip": "C:\\Users\\Adrif\\Desktop\\AccesADades\\Activitat2\\cat.itb.NF3EA2_VillodresAdrian\\cruds\\GradesCRUD.cs",
+              "RelativeToolTip": "cruds\\GradesCRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:32.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

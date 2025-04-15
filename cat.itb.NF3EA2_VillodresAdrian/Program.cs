@@ -1,8 +1,14 @@
-﻿using System;
+﻿using cat.itb.NF3EA1_VillodresAdrian.Model;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UF3_test.connections;
+using UF3_test.model;
 
 namespace cat.itb.NF3EA2_VillodresAdrian.cruds
 {
@@ -25,7 +31,7 @@ namespace cat.itb.NF3EA2_VillodresAdrian.cruds
                 {
                     Console.WriteLine("Choose an option:");
                     Console.WriteLine("EXERCICI 1: Importació de coleccions");
-                    Console.WriteLine("1. Importar Coleccions");
+                    Console.WriteLine("     1. Importar Coleccions");
                     Console.WriteLine("");
                     Console.WriteLine("EXERCICI 2: CONSULTES");
                     Console.WriteLine("     2: Comptar la població de tots els països d'Europa.");
@@ -66,122 +72,129 @@ namespace cat.itb.NF3EA2_VillodresAdrian.cruds
                     {
                         case "1":
                             Console.WriteLine("");
-
+                            books.LoadBooksCollection();
+                            people.LoadPeopleCollection();
+                            students.LoadStudentsCollection();
+                            products.LoadProductsCollection();
+                            countries.LoadCountriesCollection();
+                            grades.LoadGradesCollection();
+                            restaurants.LoadRestaurantsCollection();
+                            Console.WriteLine("Coleccions importades correctament");
                             Console.WriteLine("");
                             break;
                         case "2":
                             Console.WriteLine("");
-
+                            countries.SelectEuropePopulation();
                             Console.WriteLine("");
                             break;
                         case "3":
                             Console.WriteLine("");
-
+                            countries.SelectMadagascarInfo();
                             Console.WriteLine("");
                             break;
                         case "4":
                             Console.WriteLine("");
-
+                            books.SelectBooksOrderByPage();
                             Console.WriteLine("");
                             break;
                         case "5":
                             Console.WriteLine("");
-
+                            restaurants.ShowRestaurantByZipcode("10009");
                             Console.WriteLine("");
                             break;
                         case "6":
                             Console.WriteLine("");
-
+                            restaurants.SelectBronxChineseRestaurants();
                             Console.WriteLine("");
                             break;
                         case "7":
                             Console.WriteLine("");
-
+                            books.SelectBooksLessThan(130);
                             Console.WriteLine("");
                             break;
                         case "8":
                             Console.WriteLine("");
-
+                            people.SelectPersonFriends("Caroline Webster");
                             Console.WriteLine("");
                             break;
                         case "9":
                             Console.WriteLine("");
-
+                            restaurants.UpdateZipcodeDriggsAvenue();
                             Console.WriteLine("");
                             break;
                         case "10":
                             Console.WriteLine("");
-
+                            products.AddStockMinimToExpensiveProducts();
                             Console.WriteLine("");
                             break;
                         case "11":
                             Console.WriteLine("");
-
+                            books.AddAuthorToBook();
                             Console.WriteLine("");
                             break;
                         case "12":
                             Console.WriteLine("");
-
+                            products.AddGamaFieldToProducts();
                             Console.WriteLine("");
                             break;
                         case "13":
                             Console.WriteLine("");
-
+                            products.UpdateProductCategory("MacBook Pro", "notebook", "ipad");
                             Console.WriteLine("");
                             break;
                         case "14":
                             Console.WriteLine("");
-
+                            products.UpdateStockForPriceRange();
                             Console.WriteLine("");
                             break;
                         case "15":
                             Console.WriteLine("");
-
+                            countries.AddCallingCodeToACountry("Iceland");
                             Console.WriteLine("");
                             break;
                         case "16":
                             Console.WriteLine("");
-
+                            restaurants.DeleteRestaurantsInManhattan();
                             Console.WriteLine("");
                             break;
                         case "17":
                             Console.WriteLine("");
-
+                            products.DeleteFirstCategoryFromProduct("iPhone 7");
                             Console.WriteLine("");
                             break;
                         case "18":
                             Console.WriteLine("");
-
+                            books.DeleteBooksBetweenPages(0, 100);
                             Console.WriteLine("");
                             break;
                         case "19":
                             Console.WriteLine("");
-
+                            products.DeleteProductByName("Apple TV");
                             Console.WriteLine("");
                             break;
                         case "20":
                             Console.WriteLine("");
-
+                            books.DeleteLastCategoryFromBookByIsbn("1933988177");
                             Console.WriteLine("");
                             break;
                         case "21":
                             Console.WriteLine("");
-
+                            products.DeleteProductsByCategory("phone");
                             Console.WriteLine("");
                             break;
                         case "22":
                             Console.WriteLine("");
-
+                            people.DeleteTagsFromTeachers();
                             Console.WriteLine("");
                             break;
                         case "23":
                             Console.WriteLine("");
-
+                            countries.DeleteCountriesWhereSpanishIsSpoken();
                             Console.WriteLine("");
                             break;
                         case "24":
                             Console.WriteLine("");
-
+                            DropCollection("itb", "products");
                             Console.WriteLine("");
                             break;
                         case "0":
@@ -195,6 +208,27 @@ namespace cat.itb.NF3EA2_VillodresAdrian.cruds
 
             }
         }
+        public static void DropCollection(string databaseName, string collectionName)
+        {
+            var db = MongoLocalConnection.GetDatabase(databaseName);
+            var collection = db.GetCollection<BsonDocument>(collectionName);
+
+            var countBeforeDelete = collection.CountDocuments(new BsonDocument());
+            Console.WriteLine($"Número de documents a la col·lecció '{collectionName}': {countBeforeDelete}");
+
+            db.DropCollection(collectionName);
+            Console.WriteLine($"Col·lecció '{collectionName}' eliminada.");
+
+            var collections = db.ListCollectionNames().ToList();
+            Console.WriteLine("Col·leccions restants a la base de dades:");
+            foreach (var collectionNameRemaining in collections)
+            {
+                Console.WriteLine(collectionNameRemaining);
+            }
+        }
+
+
+
     }
 }
 
